@@ -1,0 +1,21 @@
+a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+a:active {
+    color: chartreuse;
+}
+.especial::before {
+    content: '☢';
+}
+.especial::after {
+    content: '☢';
+}
